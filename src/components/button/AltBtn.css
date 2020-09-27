@@ -1,0 +1,6 @@
+.alt-btn {
+  background-color: var(--black);
+  height: 70px;
+  width: 100px;
+  object-fit: scale-down;
+}

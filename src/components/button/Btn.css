@@ -1,0 +1,12 @@
+.btn {
+  width: 60px;
+  height: 45px;
+  background-color: black;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn:hover {
+  background-color: var(--vdg);
+}

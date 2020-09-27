@@ -1,0 +1,12 @@
+/* width: 115; alt */
+.db-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 60px;
+}
+
+.db-icon-align {
+  align-self: flex-end;
+}

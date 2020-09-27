@@ -1,0 +1,45 @@
+.main-grid {
+  display: grid;
+  grid-template-columns: 840px 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    'main  side-bar'
+    'main  side-bar';
+
+  margin: 20px 50px;
+}
+
+.main {
+  grid-area: main;
+  background-image: url('/images/desktop-image-hero-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: contain;
+}
+
+.side-bar {
+  grid-area: side-bar;
+}
+
+.side-bar {
+  display: grid;
+  margin: 0 30px;
+}
+.side-bar > p {
+  font-weight: 500;
+  color: var(--dg);
+}
+
+.sm-card1 {
+  background-image: url('/images/image-about-dark.jpg');
+}
+
+@media (max-width: 900px) {
+  .main-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      'side-bar side-bar'
+      'main main ';
+  }
+}
