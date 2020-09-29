@@ -15,9 +15,6 @@
 
 .text-card-position {
   align-self: center;
-  position: relative;
-  top: 40px;
-  left: calc(430px - 70%);
 }
 
 .text-btn-container {
@@ -52,4 +49,10 @@
 
 .arrow-mg {
   margin-left: 30px;
+}
+
+@media (max-width: 1439px) {
+  .text-card-position {
+    margin-bottom: 50px;
+  }
 }

@@ -1,0 +1,130 @@
+.img {
+  width: 100%;
+}
+.img-2 {
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+.icon-width {
+  width: initial;
+}
+.flex-display {
+  display: flex;
+}
+
+.myt-50 {
+  margin-top: 50px;
+}
+
+.main-container {
+}
+.main-grid-2 {
+}
+
+.main-img {
+  grid-area: main-img;
+}
+
+.main-content {
+  grid-area: main-content;
+}
+
+.side-grid-3 {
+}
+
+.side-img-1 {
+  grid-area: side-img-1;
+}
+.side-img-2 {
+  grid-area: side-img-2;
+}
+.side-content {
+  grid-area: side-content;
+}
+
+.main-sm-card-grid {
+  align-self: center;
+}
+.sm-card-container {
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+.sm-card-title {
+  text-transform: uppercase;
+  letter-spacing: 2.9px;
+  font-weight: 600;
+  letter-spacing: 0.6rem;
+}
+
+.sm-card-body {
+  font-weight: 500;
+  color: var(--dg);
+  line-height: 1.7;
+}
+
+@media (min-width: 1440px) {
+  .main-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'main-img main-content';
+    position: relative;
+  }
+
+  .side-grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 'side-img-1 side-content side-img-2';
+  }
+
+  .text-card-position {
+    align-self: center;
+    position: relative;
+    top: 40px;
+    left: calc(430px - 60%);
+  }
+}
+
+@media (min-width: 1700px) {
+  .main-img,
+  .side-img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1439px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'main-grid-2' 'side-grid-3';
+  }
+  .main-grid-2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'main-content' 'main-img';
+    position: relative;
+  }
+
+  .side-grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'side-img-1 side-img-1' 'side-content side-content';
+  }
+
+  .side-img-1 > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .side-img-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1060px) {
+}
+/* bp 1502  1438*/

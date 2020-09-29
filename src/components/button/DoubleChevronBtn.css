@@ -10,3 +10,10 @@
 .db-icon-align {
   align-self: flex-end;
 }
+
+@media (max-width: 1439px) {
+  .db-icon-align {
+    margin-top: 6px;
+    justify-content: flex-end;
+  }
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text } from './text';
+import './TextCard.css';
 
 // Omit, omits x field, Partial makes props of T optional
 type CardText = Omit<Text, 'img'>;

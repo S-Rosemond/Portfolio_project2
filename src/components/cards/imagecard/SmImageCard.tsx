@@ -4,7 +4,7 @@ const SmImageCard: React.FC<{ src?: string; alt?: string }> = ({
   src,
   alt,
 }) => {
-  return <img src={src} alt={alt} />;
+  return <img className='img-2 side-img' src={src} alt={alt} />;
 };
 
 SmImageCard.defaultProps = {

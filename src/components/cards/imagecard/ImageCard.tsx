@@ -10,7 +10,9 @@ const ImageCard: React.FC<TextProps> = ({ textArray }) => {
     backgroundImage: `url(${textArray[index].img})`,
   };
 
-  return <img className='img img-card' src={textArray[index].img} alt='' />;
+  return (
+    <img className='img img-card main-img' src={textArray[index].img} alt='' />
+  );
 };
 
 export default ImageCard;

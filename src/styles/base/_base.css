@@ -3,16 +3,11 @@
   margin: 0;
   padding: 0;
   font-family: 'Spartan', sans-serif;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 p {
   font-size: var(--font-size);
-}
-
-.img {
-  width: 100%;
-  height: 100%;
 }
 
 a {
@@ -22,51 +17,3 @@ a {
 li {
   list-style-type: none;
 }
-
-.bg-black {
-  background-color: var(--black);
-}
-
-.icon-width {
-  width: initial;
-}
-.flex-display {
-  display: flex;
-}
-
-.myt-50 {
-  margin-top: 50px;
-}
-
-.grid-2 {
-}
-
-.grid-3 {
-}
-
-.sm-card-container {
-  padding: 20px;
-  display: grid;
-  gap: 20px;
-}
-.sm-card-title {
-  text-transform: uppercase;
-  letter-spacing: 2.9px;
-  font-weight: 600;
-}
-
-@media (min-width: 1440px) {
-  .grid-2 {
-    display: grid;
-    grid-template-columns: repeat(2, 881px 600px);
-    /* align-items: flex-end; */
-    position: relative;
-  }
-
-  .grid-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-/* bp 1502  1438*/

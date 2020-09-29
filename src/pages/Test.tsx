@@ -12,28 +12,27 @@ import SmTextCard from './../components/cards/textcard/SmTextCard';
 import SmImageCard from '../components/cards/imagecard/SmImageCard';
 const Test = () => {
   return (
-    <div>
-      <div className='grid-2'>
+    <div className='main-container'>
+      <section className='main-grid-2'>
         <ImageCard textArray={text} />
         <TextCard textArray={text} />
-      </div>
+      </section>
 
-      <div className='grid-3'>
-        <div>
+      <section className='side-grid-3'>
+        <div className='side-img-1'>
           <SmImageCard />
         </div>
 
-        <div>
+        <div className='main-sm-card-grid side-content'>
           <SmTextCard />
         </div>
-
-        <div>
+        <div className='side-img-2'>
           <SmImageCard
             src='/images/image-about-light.jpg'
             alt='light room with single chair'
           />
         </div>
-      </div>
+      </section>
 
       {/* footer */}
     </div>
