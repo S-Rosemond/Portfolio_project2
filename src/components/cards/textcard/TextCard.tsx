@@ -14,8 +14,10 @@ const TextCard = ({ textArray }: TextProps) => {
     <div className='text-grid-container'>
       <div className='text-grid-center'>
         <div className='text-card text-card-position test'>
-          <h1>{title}</h1>
-          <p className='text-body text-body-decoration'>{body}</p>
+          <h1 className='tc-h1 tc-h1-font-size'>{title}</h1>
+          <p className='text-body text-body-decoration text-body-font-size'>
+            {body}
+          </p>
           <div className='text-btn-container'>
             <Link className='text-btn' to='shop'>
               SHOP NOW

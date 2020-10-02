@@ -1,0 +1,31 @@
+.sm-card-container {
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+.sm-card-title {
+  text-transform: uppercase;
+  letter-spacing: 2.9px;
+  font-weight: 600;
+  letter-spacing: 0.6rem;
+}
+
+.smc-font-size {
+  font-size: 16px;
+}
+
+.sm-card-body {
+  font-weight: 500;
+  color: var(--dg);
+  line-height: 1.7;
+}
+
+.smc-body-font-size {
+  font-size: 0.915rem;
+}
+
+@media (min-width: 900px) and (max-width: 1250px) {
+  .smc-body-font-size {
+    font-size: 0.75rem;
+  }
+}

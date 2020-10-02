@@ -10,10 +10,6 @@ h1 {
   font-size: 1.35rem;
 }
 
-p {
-  font-size: var(--font-size);
-}
-
 a {
   text-decoration: none;
 }

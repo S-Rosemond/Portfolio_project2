@@ -30,9 +30,11 @@
   letter-spacing: 1.7rem;
   cursor: pointer;
 }
-
-.text-card > h1 {
+.tc-h1 {
   font-weight: 600;
+}
+.tc-h1-font-size {
+  font-size: 2rem;
 }
 
 .text-body {
@@ -43,11 +45,16 @@
 .text-body-decoration {
   line-height: 1.7;
   letter-spacing: 0.1rem;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
+}
+
+.text-body-font-size {
+  font-size: 0.915rem;
 }
 
 .text-btn {
   color: var(--dvg);
+  font-size: 12px;
 }
 
 .text-btn-container:hover,
@@ -57,11 +64,15 @@
 }
 
 .arrow-mg {
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 /*    Media Query */
-
+@media (min-width: 900px) and (max-width: 1250px) {
+  .text-body-font-size {
+    font-size: 0.75rem;
+  }
+}
 @media (min-width: 1439px) {
   .text-card-position {
     margin-bottom: 50px;

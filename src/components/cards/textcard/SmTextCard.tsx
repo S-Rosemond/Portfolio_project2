@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text } from './text';
-import './TextCard.css';
+import './SmTextCard.css';
 
 // Omit, omits x field, Partial makes props of T optional
 type CardText = Omit<Text, 'img'>;
@@ -8,8 +8,8 @@ type CardText = Omit<Text, 'img'>;
 const SmTextCard: React.FC<Partial<CardText>> = ({ title, body }) => {
   return (
     <div className='sm-card-container test'>
-      <h2 className='sm-card-title'>{title}</h2>
-      <p className='sm-card-body'>{body}</p>
+      <h2 className='sm-card-title smc-font-size'>{title}</h2>
+      <p className='sm-card-body smc-body-font-size'>{body}</p>
     </div>
   );
 };
