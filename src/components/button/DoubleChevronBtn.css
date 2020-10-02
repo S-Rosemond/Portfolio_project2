@@ -9,10 +9,14 @@
 
 .db-icon-align {
   align-self: flex-end;
+  position: absolute;
+  top: -55px;
+  right: 1px;
 }
 
-@media (max-width: 1439px) {
+@media (min-width: 768px) {
   .db-icon-align {
+    position: initial;
     margin-top: 6px;
     justify-content: flex-end;
   }

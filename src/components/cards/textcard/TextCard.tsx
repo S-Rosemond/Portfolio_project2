@@ -12,20 +12,23 @@ const TextCard = ({ textArray }: TextProps) => {
 
   return (
     <div className='text-grid-container'>
-      <div className='text-card text-card-mg text-card-position'>
-        <h1>{title}</h1>
-        <p className='text-body text-body-decoration'>{body}</p>
-        <div className='text-btn-container'>
-          <Link className='text-btn' to='shop'>
-            SHOP NOW
-          </Link>
-          <img
-            className='icon-width arrow-mg'
-            src='/images/icon-arrow.svg'
-            alt=''
-          />
+      <div className='text-grid-center'>
+        <div className='text-card text-card-position'>
+          <h1>{title}</h1>
+          <p className='text-body text-body-decoration'>{body}</p>
+          <div className='text-btn-container'>
+            <Link className='text-btn' to='shop'>
+              SHOP NOW
+            </Link>
+            <img
+              className='icon-width arrow-mg'
+              src='/images/icon-arrow.svg'
+              alt=''
+            />
+          </div>
         </div>
       </div>
+
       <DoubleChevronBtn upperBound={textArray.length - 1} />
     </div>
   );

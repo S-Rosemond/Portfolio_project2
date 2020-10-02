@@ -1,6 +1,14 @@
+.text-grid-container,
+.text-grid-center {
+  display: grid;
+}
+
 .text-grid-container {
   position: relative;
-  display: grid;
+}
+
+.text-grid-center {
+  justify-items: center;
 }
 
 .text-card {
@@ -15,6 +23,7 @@
 
 .text-card-position {
   align-self: center;
+  padding: 1.25rem;
 }
 
 .text-btn-container {

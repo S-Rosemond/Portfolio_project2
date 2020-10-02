@@ -11,7 +11,7 @@ const ImageCard: React.FC<TextProps> = ({ textArray }) => {
   };
 
   return (
-    <img className='img img-card main-img' src={textArray[index].img} alt='' />
+    <img className='img-card main-img' src={textArray[index].img} alt='' />
   );
 };
 
