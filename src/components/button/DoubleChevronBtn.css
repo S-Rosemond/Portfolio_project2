@@ -8,13 +8,14 @@
 }
 
 .db-icon-align {
+  display: flex;
   align-self: flex-end;
   position: absolute;
   top: -55px;
   right: 1px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .db-icon-align {
     position: initial;
     margin-top: 6px;

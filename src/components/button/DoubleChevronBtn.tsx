@@ -24,7 +24,7 @@ const DoubleChevronBtn = ({ upperBound }: Props) => {
   };
 
   return (
-    <div className='flex-display db-icon-align'>
+    <div className='db-icon-align'>
       <Btn
         handleClick={handleIndex.bind(null, undefined)}
         src='/images/icon-angle-left.svg'

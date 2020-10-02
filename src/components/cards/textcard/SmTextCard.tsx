@@ -7,7 +7,7 @@ type CardText = Omit<Text, 'img'>;
 
 const SmTextCard: React.FC<Partial<CardText>> = ({ title, body }) => {
   return (
-    <div className='sm-card-container'>
+    <div className='sm-card-container test'>
       <h2 className='sm-card-title'>{title}</h2>
       <p className='sm-card-body'>{body}</p>
     </div>

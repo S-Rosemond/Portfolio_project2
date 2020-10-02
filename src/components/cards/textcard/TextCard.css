@@ -12,7 +12,7 @@
 }
 
 .text-card {
-  width: 500px;
+  max-width: 48.5ch;
   display: grid;
   gap: 20px;
 }
@@ -60,7 +60,9 @@
   margin-left: 30px;
 }
 
-@media (max-width: 1439px) {
+/*    Media Query */
+
+@media (min-width: 1439px) {
   .text-card-position {
     margin-bottom: 50px;
   }

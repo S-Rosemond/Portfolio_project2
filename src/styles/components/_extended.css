@@ -1,0 +1,14 @@
+.bg-black {
+  background-color: var(--black);
+}
+
+.icon-width {
+  width: initial;
+}
+.flex-display {
+  display: flex;
+}
+
+.myt-50 {
+  margin-top: 50px;
+}

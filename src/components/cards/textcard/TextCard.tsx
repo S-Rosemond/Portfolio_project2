@@ -13,7 +13,7 @@ const TextCard = ({ textArray }: TextProps) => {
   return (
     <div className='text-grid-container'>
       <div className='text-grid-center'>
-        <div className='text-card text-card-position'>
+        <div className='text-card text-card-position test'>
           <h1>{title}</h1>
           <p className='text-body text-body-decoration'>{body}</p>
           <div className='text-btn-container'>

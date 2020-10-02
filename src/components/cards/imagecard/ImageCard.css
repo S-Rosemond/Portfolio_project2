@@ -3,6 +3,12 @@
   width: 100%;
 }
 
+@media (max-width: 420px) {
+  .img-card {
+    height: 100%;
+  }
+}
+
 @media (max-width: 1439) {
   .img-card {
     width: 540px;
