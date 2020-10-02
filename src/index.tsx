@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import 'normalize.css';
+// import 'normalize.css';
 import './styles/index.css';
 import IndexStateProvider from './context/IndexContext/IndexStateProvider';
 import App from './app/App';
